@@ -66,8 +66,6 @@ void radix_sort(int *array, size_t size)
 {
 	int max, sig, *buff;
 
-
-
 	if (array == NULL || size < 2)
 		return;
 
